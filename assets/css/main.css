@@ -1,0 +1,192 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: inline;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+#contents {
+	position: absolute;
+	top: -1%;
+	left: 50%;
+	transform: translate(-50%, 0);
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	background-color: #333;
+}
+
+.section {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+.section img {
+	position: relative;
+    width: 100%;
+}
+
+.sub img{
+	filter: brightness(70%);
+}
+
+#text-contain {
+	position: absolute;
+	top: 25%;     
+    left: 6.5%;
+    width: 50%;
+    height: 80%;
+    font-family: Open Sans;
+    color: white;
+}
+
+#t0 {
+	font: Open Sans;
+	font-size: 20px;
+	font-weight: 400;
+	padding-bottom: 10px;
+}
+
+#t1 {
+	font: Open Sans;
+	font-size: 45px;
+	font-weight: 700;
+	padding-bottom: 10px;
+}
+
+#t2 {
+	font: Open Sans;
+	font-size: 15px;
+	font-weight: 300;
+	font-style: italic;
+	padding-bottom: 50px;
+}
+
+#more-button {
+	padding: 10px 15px 10px 15px;
+	background-color: #BCA2DD;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+#more-button:hover {
+	cursor: pointer;
+	background-color: #8759C3;
+}
+
+.text-box {
+	position: absolute;
+    z-index: 2;
+    font-family: Open Sans;
+    color: white;
+}
+
+#left {
+	bottom: 15%;     
+    left: 6.5%;
+}
+
+#right {
+	bottom: 15%;     
+    right: 6.5%;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.arrow {
+	font: Open Sans;
+	font-weight: 700;
+	font-size: 20px;
+	padding: 0px 7.5px 0.45px 7.5px;
+	border-radius: 30px;
+	color: #BCA2DD;
+	background-color: #fff;
+	display: inline-block;
+	transform: rotate(-90deg);
+	cursor: pointer;
+	filter: drop-shadow(0px 0px 4px #C7C7C7);
+}
+
+.up {
+	margin-bottom: 50px;
+}
+
+.down {
+	margin-top: 50px;
+}
+
+.arrow:hover {
+	background-color: #BCA2DD;
+	color: #fff;
+}
+
+.line {
+	font: Open Sans;
+	font-size: 20px;
+	font-weight: 600;
+	padding-bottom: 10px;
+	letter-spacing: 1.5px;
+}
+
+.subject {
+	font-family: Bree Serif; 
+	font-size: 50px;
+	font-weight: 700;
+	text-align: right;
+	padding: 5px 30px 10px 30px;
+	letter-spacing: 3px;
+	margin-bottom: 40px;
+}
+
+#s1 {
+	background-color: #2B7DE1;
+}
+
+#s2 {
+	background-color: #20CBD4;
+}
+
+#s3 {
+	background-color: #E23D89;
+}
+
+.button {
+	display: inline-block;
+	padding: 10px 15px 10px 15px;
+	border-radius: 5px;
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+#course {
+	background-color: #F2A900;
+}
+
+#course:hover {
+	background-color: #FF7600;
+}
+
+#exp {
+	background-color: #A26C53;
+}
+
+#exp:hover {
+	background-color: #7D4A32;
+}
+
+#skills {
+	background-color: #98AD28;
+	padding: 10px 25px 10px 25px;
+}
+
+#skills:hover {
+	background-color: #727C3C;
+}
